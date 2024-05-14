@@ -8,3 +8,5 @@ See how far you can go!
 Habesha Theme: Enjoy the unique cultural twist with the jebena as your hero.
 Endless Runner:The game continues indefinitely, challenging your reflexes.
 Responsive Design: Play on both desktop and mobile devices.
+# Credits
+This project was inspired by the Chrome dinosaur game and the rich Ethiopian coffee culture. Feel free to share and improve the game!
