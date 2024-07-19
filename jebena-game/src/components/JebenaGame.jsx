@@ -23,7 +23,7 @@ function JebenaGame() {
         10
       );
 
-      // get current cactus X position
+      // get current cini X position
       const ciniLeft = parseInt(
         getComputedStyle(ciniRef.current).getPropertyValue('left'),
         10
@@ -50,8 +50,8 @@ function JebenaGame() {
   return (
     <div className="game">
       Score: {score}
-      <div id="dino" ref={dinoRef}></div>
-      <div id="cactus" ref={cactusRef}></div>
+      <div id="jebena" ref={jebenaRef}></div>
+      <div id="cini" ref={ciniRef}></div>
     </div>
   );
 }
