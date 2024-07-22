@@ -1,4 +1,5 @@
 # Jebena Game 
+redoing it to function on mobile phones using react 
 The Jebena Game is an Ethiopian-inspired version of the classic Chrome dinosaur game. It features a cute jebena (traditional Ethiopian coffee pot) as the main character, jumping over obstacles in an endless desert landscape.
 # How to Play
 Keyboard Controls: Press the Spacebar to make the jebena jump.
