@@ -1,64 +1,80 @@
 .game {
-    width: 600px;
-    height: 225px;
+  width: 600px;
+  height: 225px;
+  margin: auto;
+  position: relative;
+}
 
-    margin: auto;
-  }
-  
-  #jebena {
-    width: 50px;
-    height: 50px;
-    background-image: url(./jebena.png);
-    background-size: 50px 50px;
-    position: relative;
+#jebena {
+  width: 50px;
+  height: 50px;
+  background-image: url(./jebena.png);
+  background-size: 50px 50px;
+  position: relative;
+  top: 150px;
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
     top: 150px;
   }
-  
-  .jump {
-    animation: jump 0.3s linear;
+  30% {
+    top: 130px;
   }
-  
-  @keyframes jump {
-    0% {
-      top: 150px;
-    }
-  
-    30% {
-      top: 130px;
-    }
-  
-    50% {
-      top: 80px;
-    }
-  
-    80% {
-      top: 130px;
-    }
-  
-    100% {
-      top: 150px;
-    }
+  50% {
+    top: 80px;
   }
-  
-  #cini {
-    width: 20px;
-    height: 40px;
-    position: relative;
-    top: 110px;
+  80% {
+    top: 130px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+#cini {
+  width: 20px;
+  height: 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+  background-image: url("./cini.png");
+  background-size: 20px 40px;
+  animation: block 1s infinite linear;
+}
+
+@keyframes block {
+  0% {
     left: 580px;
-  
-    background-image: url("./cini.png");
-    background-size: 20px 40px;
-  
-    animation: block 1s infinite linear;
   }
-  
-  @keyframes block {
-    0% {
-      left: 580px;
-    }
-  
-    100% {
-      left: -5px;
-    }
+  100% {
+    left: -5px;
   }
+}
+
+.start-screen,
+.game-over {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.start-button,
+.restart-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
