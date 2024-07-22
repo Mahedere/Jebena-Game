@@ -78,3 +78,69 @@
   left: 10px;
   font-size: 24px;
 }
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .game {
+    width: 100%;
+    height: auto;
+  }
+
+  #jebena {
+    width: 10vw;
+    height: 10vw;
+    background-size: contain;
+    top: 30vw;
+  }
+
+  #cini {
+    width: 4vw;
+    height: 8vw;
+    top: 22vw;
+    left: 96vw;
+    background-size: contain;
+  }
+
+  @keyframes jump {
+    0% {
+      top: 30vw;
+    }
+    30% {
+      top: 26vw;
+    }
+    50% {
+      top: 16vw;
+    }
+    80% {
+      top: 26vw;
+    }
+    100% {
+      top: 30vw;
+    }
+  }
+
+  @keyframes block {
+    0% {
+      left: 96vw;
+    }
+    100% {
+      left: -1vw;
+    }
+  }
+
+  .start-screen,
+  .game-over {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .start-button,
+  .restart-button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .score {
+    font-size: 18px;
+  }
+}
