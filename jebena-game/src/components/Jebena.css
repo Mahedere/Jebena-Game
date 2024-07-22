@@ -8,7 +8,7 @@
 #jebena {
   width: 50px;
   height: 50px;
-  background-image: url(/jebena.png);
+  background-image: url(./jebena.png);
   background-size: 50px 50px;
   position: relative;
   top: 150px;
@@ -42,7 +42,7 @@
   position: relative;
   top: 110px;
   left: 580px;
-  background-image: url("/cini.png");
+  background-image: url("./cini.png");
   background-size: 20px 40px;
   animation: block 1s infinite linear;
 }
@@ -83,13 +83,13 @@
 @media (max-width: 600px) {
   .game {
     width: 100%;
-    height: auto;
+    height: 50vw;
   }
 
   #jebena {
     width: 10vw;
     height: 10vw;
-    background-size: contain;
+    background-size: cover;
     top: 30vw;
   }
 
@@ -98,7 +98,7 @@
     height: 8vw;
     top: 22vw;
     left: 96vw;
-    background-size: contain;
+    background-size: cover;
   }
 
   @keyframes jump {
