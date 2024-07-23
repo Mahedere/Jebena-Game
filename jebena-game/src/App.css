@@ -3,5 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/start.png');
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
 }
 
