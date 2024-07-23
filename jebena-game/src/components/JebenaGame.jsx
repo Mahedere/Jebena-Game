@@ -78,7 +78,10 @@ function JebenaGame() {
         <div className="start-screen">
           {isGameOver ? (
             <>
-              <div className="game-over">Game Over! Your Score: {score}</div>
+              <div class="game-over-container">
+                <h1 class="game-over-text">Game Over</h1>
+                <p class="score-text">Your Score: <span id="score">{score}</span></p>
+              </div>
               <button className="restart-button" onClick={startGame}>Restart</button>
             </>
           ) : (
