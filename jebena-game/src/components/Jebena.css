@@ -80,6 +80,7 @@ body {
   background-color: transparent; /* Ensure the button background doesn't clash */
   color: white; /* Ensure the text color is visible */
   transition: background-color 0.3s, color 0.3s; 
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .score {
@@ -142,6 +143,7 @@ body {
   .game-over {
     font-size: 18px;
     margin-top: 20px;
+    background: rgba(255, 255, 255, 0.7);
   }
 
   .start-button,
